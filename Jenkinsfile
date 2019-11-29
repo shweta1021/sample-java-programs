@@ -5,7 +5,7 @@ node
         }
     stage ('shell script'){
         sh label: '', script: 'mvn install'
-        sh label: '', script: 'netstat -anp |grep -i 9000'
+        sh label: '', script: 'mvn -version'
     }
     stage('build'){
         echo 'build is successful'
