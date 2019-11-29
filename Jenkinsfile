@@ -12,8 +12,8 @@ node
     stage ('deploy'){
         echo 'done with deployment'
     }
-    stage('deliver'){
-        echo 'delivered'
+    stage('Test'){
+        echo 'tested'
     }
     
     
